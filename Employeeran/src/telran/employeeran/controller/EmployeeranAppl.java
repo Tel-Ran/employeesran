@@ -24,14 +24,13 @@ public class EmployeeranAppl {
 IEmployeeran employees;
 
 @PostMapping(value=EmployeeranApi.ADD_EMPLOYEE)
-String addEmployee(@RequestBody Employee order) {
-	String res=employees.addEmployee(order)?"order added":"order already exists";
-	return res;
+boolean addEmployee(@RequestBody Employee order) {
+	return employees.addEmployee(order);
 }
 @DeleteMapping(value=EmployeeranApi.REMOVE_EMPLOYEE)
-String removeEmployee(int id)
+boolean removeEmployee(int id)
 {
-	return employees.removeEmployee(id)?"order removed":"order doesn't exists";
+	return employees.removeEmployee(id);
 }
 @GetMapping(value=EmployeeranApi.GET_ALL_EMPLOYEES)
 Map<Integer,Employee> getAllEmployees(){

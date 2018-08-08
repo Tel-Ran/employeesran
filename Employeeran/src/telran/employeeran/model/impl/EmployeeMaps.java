@@ -17,7 +17,7 @@ HashMap<Integer,Employee> employees=new HashMap<>();
 
 	@Override
 	synchronized public Map<Integer, Employee> getAllEmployees() {
-		return employees;
+		return new HashMap<Integer,Employee>(employees);
 	}
 
 	@Override
