@@ -1,0 +1,5 @@
+telran/coffeeran/dto/CoffeerunApi.class
+telran/coffeeran/controller/CofeerunAppl.class
+telran/coffeeran/model/interfaces/ICoffeeRun.class
+telran/coffeeran/dto/Coffee.class
+telran/coffeeran/model/impl/CoffeeMaps.class
