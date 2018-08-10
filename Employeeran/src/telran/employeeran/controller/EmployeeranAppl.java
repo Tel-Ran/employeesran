@@ -40,6 +40,10 @@ Map<Integer,Employee> getAllEmployees(){
 Employee getEmployee(int id) {
 	return employees.getEmployee(id);
 }
+@GetMapping("statistics")
+int [] getStatistics() {
+	return employees.getAddsRemoves();
+}
 	public static void main(String[] args) {
 		SpringApplication.run
 		(EmployeeranAppl.class, args);
