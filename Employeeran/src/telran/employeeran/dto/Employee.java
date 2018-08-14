@@ -9,7 +9,7 @@ public String companyName;
 public int salary;
 public String title;
 public String getTitle() {
-	return title;
+	return title;//was missing
 }
 public int getId() {
 	return id;
