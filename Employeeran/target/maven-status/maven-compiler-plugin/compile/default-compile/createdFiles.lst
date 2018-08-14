@@ -1,5 +1,5 @@
-telran/coffeeran/dto/CoffeerunApi.class
-telran/coffeeran/controller/CofeerunAppl.class
-telran/coffeeran/model/interfaces/ICoffeeRun.class
-telran/coffeeran/dto/Coffee.class
-telran/coffeeran/model/impl/CoffeeMaps.class
+telran/employeeran/dto/EmployeeranApi.class
+telran/employeeran/controller/EmployeeranAppl.class
+telran/employeeran/dto/Employee.class
+telran/employeeran/model/interfaces/IEmployeeran.class
+telran/employeeran/model/impl/EmployeeMaps.class
