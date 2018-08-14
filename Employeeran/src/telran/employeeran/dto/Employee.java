@@ -7,6 +7,10 @@ public String name;
 public String gender;
 public String companyName;
 public int salary;
+public String title;
+public String getTitle() {
+	return title;
+}
 public int getId() {
 	return id;
 }
