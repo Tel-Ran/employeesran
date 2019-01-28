@@ -10,4 +10,5 @@ Map<Integer,Employee> getAllEmployees();
 boolean addEmployee(Employee empl);
 boolean removeEmployee(int id);
 int[]getAddsRemoves();
+int getSalary();
 }
